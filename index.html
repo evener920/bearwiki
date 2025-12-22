@@ -97,6 +97,10 @@
             <i class="far fa-file-alt mr-2 text-info"></i>
             <span>FAQ.md</span>
           </div>
+          <div class="file-item p-2 rounded cursor-pointer flex items-center" data-file="example.md">
+            <i class="far fa-file-alt mr-2 text-info"></i>
+            <span>example.md</span>
+          </div>
         </div>
       </aside>
 
@@ -479,6 +483,99 @@ docker run -p 3000:3000 my-project</code></pre>
             <li>创建多个配置文件用于不同环境</li>
             <li>使用配置管理工具</li>
             <li>通过命令行参数传递配置</li>
+          </ul>
+        `
+      },
+      'example.md': {
+        title: '示例Wiki页面',
+        content: `
+          <h1 id="示例wikI页面">示例Wiki页面</h1>
+          <p>这是一个示例Wiki页面，展示了如何使用Markdown语法创建内容。</p>
+
+          <h2 id="标题级别">标题级别</h2>
+          
+          <h3 id="三级标题">三级标题</h3>
+          
+          <h4 id="四级标题">四级标题</h4>
+          
+          <h5 id="五级标题">五级标题</h5>
+          
+          <h6 id="六级标题">六级标题</h6>
+
+          <h2 id="文本样式">文本样式</h2>
+          <p>这是普通文本。</p>
+          <p><strong>这是粗体文本。</strong></p>
+          <p><em>这是斜体文本。</em></p>
+          <p><del>这是删除线文本。</del></p>
+
+          <h2 id="列表">列表</h2>
+          
+          <h3 id="无序列表">无序列表</h3>
+          <ul>
+            <li>第一项</li>
+            <li>第二项
+              <ul>
+                <li>子项</li>
+                <li>另一个子项</li>
+              </ul>
+            </li>
+            <li>第三项</li>
+          </ul>
+
+          <h3 id="有序列表">有序列表</h3>
+          <ol>
+            <li>第一项</li>
+            <li>第二项</li>
+            <li>第三项</li>
+          </ol>
+
+          <h2 id="链接和图片">链接和图片</h2>
+          <p><a href="https://github.com">GitHub</a></p>
+          <p><img src="https://via.placeholder.com/150" alt="示例图片"></p>
+
+          <h2 id="代码">代码</h2>
+          <p><code>inline code</code></p>
+          <pre><code class="language-javascript">// 这是一个代码块
+function helloWorld() {
+  console.log("Hello, World!");
+}</code></pre>
+
+          <h2 id="表格">表格</h2>
+          <table class="table table-zebra">
+            <thead>
+              <tr>
+                <th>列1</th>
+                <th>列2</th>
+                <th>列3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+              </tr>
+              <tr>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2 id="引用">引用</h2>
+          <blockquote>
+            <p>这是一个引用块。</p>
+            <p>它可以跨越多行。</p>
+          </blockquote>
+
+          <h2 id="分割线">分割线</h2>
+          <hr>
+
+          <h2 id="任务列表">任务列表</h2>
+          <ul>
+            <li><input type="checkbox" checked disabled> 已完成任务</li>
+            <li><input type="checkbox" disabled> 未完成任务</li>
           </ul>
         `
       }
