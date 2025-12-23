@@ -10,5 +10,5 @@
 - example
   - [example](example.md)
  
-  - test
+- test
   - [test](test.md)
