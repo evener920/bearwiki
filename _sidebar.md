@@ -1,7 +1,7 @@
 * [首页](/)
 * [* [首页](/)](_sidebar.md)
+* [示例Wiki页面](examp.md)
 * [示例Wiki页面](example.md)
 * [gettingstarted](gettingstarted.md)
 * [hello world](test.md)
 * [wikihome](wikihome.md)
-* [示例Wiki页面](示例Wiki页面.md)
