@@ -1,14 +1,7 @@
-- 首页
-  - [Wiki 首页](wiki首页.md)
-
-- 入门
-  - [能学记的入门指南](能学记的入门指南.md)
-
-- 示例Wiki页面
-  - [示例 Wiki 页面](示例wiki页面.md)
-
-- example
-  - [example](example.md)
- 
-- test
-  - [test](test.md)
+* [首页](/)
+* [* [首页](/)](_sidebar.md)
+* [示例Wiki页面](example.md)
+* [hello world](test.md)
+* [wiki首战](wiki首战.md)
+* [熊掌记的入门指南](熊掌记的入门指南.md)
+* [示例Wiki页面](示例Wiki页面.md)
