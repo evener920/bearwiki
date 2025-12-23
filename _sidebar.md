@@ -2,6 +2,6 @@
 * [* [首页](/)](_sidebar.md)
 * [示例Wiki页面](example.md)
 * [hello world](test.md)
-* [wiki首战](wiki首战.md)
+* [wikihome](wikihome.md)
 * [熊掌记的入门指南](熊掌记的入门指南.md)
 * [示例Wiki页面](示例Wiki页面.md)
